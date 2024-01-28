@@ -1,0 +1,118 @@
+.feedback-app-bg-container {
+  background-image: linear-gradient(to right, #ffebeb, #ffeeee, #ffc0bb);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+}
+
+.feedback-question {
+  font-size: 1.2rem;
+}
+
+.feedback-options-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.feedback-option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.feedback-option-img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.feedback-option-rating {
+  font-size: 1rem;
+}
+
+.message-top-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.message-text {
+  font-size: 1.5rem;
+}
+
+.feedback-purpose-description {
+  font-size: 1rem;
+}
+
+.feedback-option-rating,
+.feedback-purpose-description {
+  color: #1e293b;
+}
+
+.feedback-question,
+.message-text {
+  color: #0f172a;
+}
+
+.feedback-question,
+.message-text,
+.feedback-option-rating,
+.feedback-purpose-description {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .feedback-app-bg-container {
+    padding: 1.5rem;
+  }
+
+  .content-container {
+    padding: 4rem;
+    width: 60vw;
+  }
+
+  .feedback-question {
+    font-size: 2.8rem;
+  }
+
+  .feedback-option-img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .feedback-option-rating {
+    font-size: 1.1rem;
+  }
+
+  .message-top-img {
+    height: 4rem;
+    width: 4.5rem;
+  }
+
+  .message-text {
+    font-size: 2.2rem;
+  }
+
+  .feedback-purpose-description {
+    font-size: 1.1rem;
+    width: 70%;
+  }
+}
